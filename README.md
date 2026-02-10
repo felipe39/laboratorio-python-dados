@@ -1,2 +1,7 @@
-# laboratorio-python-dados
-Repositório de estudos, exercícios e testes em Python, Estatística e Análise de Dados (conteúdos de cursos e treinamentos).
+# Estudos em Análise de Dados 📚🧪
+
+Este repositório é destinado a **estudos, exercícios e testes** realizados durante cursos e treinamentos (Udemy, Alura, etc.).
+
+⚠️ Este não é um repositório de portfólio.  
+Os projetos organizados e finalizados estão no repositório:  
+👉 portfolio-analise-dados
