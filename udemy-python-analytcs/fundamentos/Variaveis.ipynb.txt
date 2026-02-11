@@ -1,0 +1,211 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "AAjX039BUAuO"
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "minha_idade = 31"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "minha_idade"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PMiaECGCU1hA",
+        "outputId": "7603edd0-58ab-4784-b79c-1ccf35424455"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "31"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Eu tenho ', minha_idade, 'anos')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8t4f9FGzU4LD",
+        "outputId": "8c4d5ad9-194d-4112-a0f6-b50aa432d8ae"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Eu tenho  31 anos\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# A conversao da taxa para dolar\n",
+        "taxaUSD = 3.20\n",
+        "300 / taxaUSD"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_OdO9Xm8VHfO",
+        "outputId": "a8ffe04a-9930-49e9-97e5-6c7b1796e455"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "93.75"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Use sempre variavel para numero ou texto sem misturar\n",
+        "meu_nome = 'ivan'"
+      ],
+      "metadata": {
+        "id": "NKWKY5wsV674"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saber o tipo\n",
+        "type(taxaUSD)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GjVkqWudW8Io",
+        "outputId": "1157fa93-1c4e-411e-c968-af890ade80a4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(meu_nome)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NgBWUBufXU8v",
+        "outputId": "7d9b43c8-142a-43f1-ff2b-80a8064b0367"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Programa que armazena valor na variavel e depois mostra\n",
+        "print('O meu primeiro programa em python')\n",
+        "num1 = 100\n",
+        "num2 = 350\n",
+        "print('O resultado de', num1, '+', num2, 'é:',num1+num2)\n",
+        "print('Fim do program')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UAN45cyNXeOk",
+        "outputId": "a189093b-c01d-4779-e43b-3f3fe5ae0f73"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "O meu primeiro programa em python\n",
+            "O resultado de 100 + 350 é: 450\n",
+            "Fim do program\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "bTveGDdJXgHU"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
